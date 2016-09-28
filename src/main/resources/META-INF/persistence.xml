@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+                                 http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+             version="2.1">
+    <persistence-unit name="IQKM-Demo-Persons"
+                      transaction-type="JTA">
+        <jta-data-source>${datasource.name}</jta-data-source>
+        <class>ro.satrapu.iqkm.demo.persons.Person</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <validation-mode>CALLBACK</validation-mode>
+        <properties>
+            <property name="javax.persistence.schema-generation.database.action"
+                      value="drop-and-create"/>
+        </properties>
+    </persistence-unit>
+</persistence>
