@@ -23,7 +23,7 @@
 
     <ciManagement>
         <system>drone.io</system>
-        <url>https://drone.io/github.com/satrapu/jee-deploy-to-cloud</url>
+        <url>https://drone.io/github.com/satrapu/iquest-keyboards-and-mice-brasov-2016</url>
     </ciManagement>
 
     <scm>
