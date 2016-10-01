@@ -4,3 +4,6 @@ target
 # IntelliJ IDEA generated artifacts
 .idea
 *.iml
+
+# Heroku
+.env
