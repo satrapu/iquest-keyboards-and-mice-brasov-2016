@@ -27,7 +27,7 @@ public class HerokuRunner {
 
         //ensure the Heroku datasource is deployed before the JEE application, so that the latter's persistence unit
         // will be able to find a suitable datasource
-        swarm.deploy(buildDatasourceArchive(System.getenv(ENVIRONMENT_VARIABLE_DATABASE_URL))).deploy();
+        swarm.deploy(buildDatasourceArchive(System.getenv(ENVIRONMENT_VARIABLE_DATABASE_URL)));
 
         //deploy the JEE 7 application, containing configured Swarm fractions like CDI, EJB, etc.
         swarm.deploy();
