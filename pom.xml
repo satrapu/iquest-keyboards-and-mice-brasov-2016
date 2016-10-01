@@ -11,10 +11,6 @@
 
     <name>deploying-jee-to-heroku</name>
 
-    <prerequisites>
-        <maven>3.2.5</maven>
-    </prerequisites>
-
     <description>
         See https://github.com/satrapu/iquest-keyboards-and-mice-brasov-2016/blob/master/README.md.
     </description>
@@ -177,7 +173,7 @@
     <profiles>
         <profile>
             <!--
-              This Maven profile is used when running the application on Heroku.
+                This Maven profile is used when running the application on Heroku.
             -->
             <id>heroku</id>
             <properties>
@@ -185,6 +181,20 @@
             </properties>
 
             <dependencies>
+                <dependency>
+                    <groupId>org.wildfly.swarm</groupId>
+                    <artifactId>jpa</artifactId>
+                    <exclusions>
+                        <!--
+                            Exclude H2 fraction as the application will use PostgreSQL.
+                        -->
+                        <exclusion>
+                            <groupId>org.wildfly.swarm</groupId>
+                            <artifactId>h2</artifactId>
+                        </exclusion>
+                    </exclusions>
+                </dependency>
+
                 <!--
                     Include "postgresql" WildFly Swarm fraction since it provides access to the PostgreSQL JDBC driver
                     to be used when communicating with a Heroku managed PostgreSQL database.
