@@ -242,6 +242,9 @@
               This Maven profile is used when running the application on local machine.
             -->
             <id>local</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
             <properties>
                 <environment>local</environment>
             </properties>
