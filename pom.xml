@@ -61,7 +61,7 @@
         <version.maven-compiler-plugin>3.5.1</version.maven-compiler-plugin>
         <version.maven-war-plugin>2.6</version.maven-war-plugin>
         <version.maven-enforcer-plugin>1.4.1</version.maven-enforcer-plugin>
-        <version.wildfly.swarm>2016.9</version.wildfly.swarm>
+        <version.wildfly.swarm>2016.10.0</version.wildfly.swarm>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <environment>none</environment>
     </properties>
