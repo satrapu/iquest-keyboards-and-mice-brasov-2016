@@ -64,7 +64,7 @@ heroku local -f Procfile.windows -e .env -p 6789
 heroku run printenv
 ````
 
-* Display all config vars defined inside the Heroku application
+* Display all config vars defined inside the Heroku application:
 ````
 heroku run printenv
 ````
@@ -74,7 +74,7 @@ heroku run printenv
 heroku run 'cat /etc/*-release' --app iq-kam-brasov-2016
 ````
 
-* Copy config var from Heroku application to local .env file
+* Copy config var from Heroku application to local .env file:
 ````
 heroku config:get DATABASE_URL -s  >> .env
 ````
