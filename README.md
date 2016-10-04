@@ -51,5 +51,30 @@ References
   * Flyway: http://www.hascode.com/2013/04/easy-database-migrations-using-flyway-java-ee-6-and-glassfish/
   * Liquibase: http://www.hascode.com/2014/07/java-ee-7-database-migrations-with-liquibase-and-wildfly/
   * Others
+  
+Useful Heroku CLI commands
+--
+* Run Heroku application on my Windows machine:
+````
+heroku local -f Procfile.windows -e .env -p 6789
+````
 
-   
+* Display all environment variables defined on the Heroku node:
+````
+heroku run printenv
+````
+
+* Display all config vars defined inside the Heroku application
+````
+heroku run printenv
+````
+
+* Dispaly the details of the Heroku node OS:
+````
+heroku run 'cat /etc/*-release' --app iq-kam-brasov-2016
+````
+
+* Copy config var from Heroku application to local .env file
+````
+	heroku config:get DATABASE_URL -s  >> .env
+````
