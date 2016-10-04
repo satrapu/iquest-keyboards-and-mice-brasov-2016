@@ -62,12 +62,12 @@ heroku local -f Procfile.windows -e .env -p 6789
 
 * Display all environment variables defined on the Heroku node:
 ````
-heroku run printenv
+heroku run printenv --app iq-kam-brasov-2016
 ````
 
 * Display all config vars defined inside the Heroku application:
 ````
-heroku config
+heroku config --app iq-kam-brasov-2016
 ````
 
 * Dispaly the details of the Heroku node OS:
@@ -77,5 +77,5 @@ heroku run 'cat /etc/*-release' --app iq-kam-brasov-2016
 
 * Copy config var from Heroku application to local .env file:
 ````
-heroku config:get DATABASE_URL -s  >> .env
+heroku config:get DATABASE_URL -s  >> .env --app iq-kam-brasov-2016
 ````
