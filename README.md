@@ -15,8 +15,9 @@ Live Application
 References
 --
 * Heroku
-  * Official Site: https://www.heroku.com/home  
+  * Official Site: https://www.heroku.com/home
   * How Heroku Works: https://devcenter.heroku.com/articles/how-heroku-works  
+  * Pricing: https://www.heroku.com/pricing
   * Heroku CLI: https://devcenter.heroku.com/articles/heroku-command-line  
   * Limits: https://devcenter.heroku.com/articles/limits  
   * Error Codes: https://devcenter.heroku.com/articles/error-codes  
