@@ -1,9 +1,10 @@
 # iQuest Keyboards & Mice - Brașov - 2016
-[Description](#description)  
-[Continuous Integration](#ci)  
-[Live Application](#live-application)  
-[References](#references)  
-[Useful Heroku CLI commands](#heroku-cli-commands)  
+**Table of Contents**  
+- [Description](#description)  
+- [Continuous Integration](#ci)  
+- [Live Application](#live-application)  
+- [References](#references)  
+- [Useful Heroku CLI commands](#heroku-cli-commands)  
 
 <a name="description">Description</a>
 --
