@@ -78,7 +78,7 @@ heroku run printenv --app iq-kam-brasov-2016
 heroku config --app iq-kam-brasov-2016
 ```
 
-* Dispaly the details of the Heroku node OS:
+* Display the details of the Heroku node OS:
 ```bash
 heroku run 'cat /etc/*-release' --app iq-kam-brasov-2016
 ```
