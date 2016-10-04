@@ -67,7 +67,7 @@ heroku run printenv
 
 * Display all config vars defined inside the Heroku application:
 ````
-heroku run printenv
+heroku config
 ````
 
 * Dispaly the details of the Heroku node OS:
