@@ -19,6 +19,7 @@ References
   * How Heroku Works: https://devcenter.heroku.com/articles/how-heroku-works  
   * Pricing: https://www.heroku.com/pricing
   * Heroku CLI: https://devcenter.heroku.com/categories/command-line
+  * Deployment: https://devcenter.heroku.com/categories/deployment
   * Limits: https://devcenter.heroku.com/articles/limits  
   * Error Codes: https://devcenter.heroku.com/articles/error-codes  
   * Java on Heroku: https://devcenter.heroku.com/categories/java  
