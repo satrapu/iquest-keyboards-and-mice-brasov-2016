@@ -1,18 +1,24 @@
 # iQuest Keyboards & Mice - Brașov - 2016
-[Description](#description)
+[Description](#description)  
+[Continuous Integration](#ci)  
+[Live Application](#live-application)  
+[References](#references)  
+[Useful Heroku CLI commands](#heroku-cli-commands)  
+
+<a name="description">Description</a>
 --
 This repo contains the source code of a JEE 7 web application to be used during the "Deploying JEE to HEROKU" session at the "[Keyboards & Mice](http://www.iquestgroup.com/en/event/keyboards-mice-brasov-2016/)" iQuest public event, which will take place in Brașov on October 12th, 2016.  
 The web application is composed of a servlet which reads some rows from a database via JPA, a simplified setup meant to present one approach to performing deployments on [Heroku cloud application platform](https://www.heroku.com/home).
 
-[Continuous Integration](#ci)
+<a name="ci">Continuous Integration</a>
 --
 * drone.io: [![Build Status](https://drone.io/github.com/satrapu/iquest-keyboards-and-mice-brasov-2016/status.png)](https://drone.io/github.com/satrapu/iquest-keyboards-and-mice-brasov-2016/latest)
 
-[Live Application](#live)
+<a name="live-application">Live Application</a>
 -- 
 [http://iq-kam-brasov-2016.herokuapp.com/demo/](http://iq-kam-brasov-2016.herokuapp.com/demo/)
 
-[References](#refs)
+<a name="references">References</a>
 --
 * Heroku
   * Official Site: https://www.heroku.com/home
@@ -54,7 +60,7 @@ The web application is composed of a servlet which reads some rows from a databa
   * Liquibase: http://www.hascode.com/2014/07/java-ee-7-database-migrations-with-liquibase-and-wildfly/
   * Others
   
-[Useful Heroku CLI commands](#herokucli)
+<a name="heroku-cli-commands">Useful Heroku CLI commands</a>
 --
 * Run Heroku application on my Windows machine:
 ```bash
