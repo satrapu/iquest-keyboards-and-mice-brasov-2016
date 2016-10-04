@@ -76,5 +76,5 @@ heroku run 'cat /etc/*-release' --app iq-kam-brasov-2016
 
 * Copy config var from Heroku application to local .env file
 ````
-	heroku config:get DATABASE_URL -s  >> .env
+heroku config:get DATABASE_URL -s  >> .env
 ````
