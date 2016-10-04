@@ -75,7 +75,7 @@ heroku config --app iq-kam-brasov-2016
 heroku run 'cat /etc/*-release' --app iq-kam-brasov-2016
 ````
 
-* Copy config var from Heroku application to local .env file:
+* Copy config var "DATABASE_URL" (contains the URL pointing to the Heroku managed PostgreSQL database) from Heroku application to local .env file:
 ````
 heroku config:get DATABASE_URL -s  >> .env --app iq-kam-brasov-2016
 ````
