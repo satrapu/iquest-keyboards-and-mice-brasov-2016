@@ -50,7 +50,7 @@ The web application is composed of a servlet which reads some rows from a databa
   * Docs: http://readme.drone.io/usage/overview/
   * Heroku Deployments: http://docs.drone.io/heroku.html
   * Alternatives:
-    * CodeShip: https://devcenter.heroku.com/articles/codeship
+    * CodeShip: https://documentation.codeship.com/continuous-deployment/deployment-to-heroku/
     * Travis CI: https://docs.travis-ci.com/user/deployment/heroku
     * Others
 * Java Enterprise Edition 7
