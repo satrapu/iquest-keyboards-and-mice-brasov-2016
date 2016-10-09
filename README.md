@@ -47,8 +47,12 @@ The web application is composed of a servlet which reads some rows from a databa
     * Others
 * Drone.io
   * Official Site: https://drone.io/
-  * Docs: http://readme.drone.io/
+  * Docs: 
+    * Old: http://docs.drone.io/
+    * New: http://readme.drone.io/
   * Source Code: https://github.com/drone/drone/
+  * Demos: https://github.com/drone-demos/
+  * Plugins: https://github.com/drone-plugins/
   * Heroku Deployments: http://docs.drone.io/heroku.html
   * Alternatives:
     * CodeShip: https://documentation.codeship.com/continuous-deployment/deployment-to-heroku/
