@@ -1,7 +1,5 @@
 package ro.satrapu.iqkm.demo.persons;
 
-import ro.satrapu.iqkm.demo.persons.Person;
-
 import javax.annotation.PostConstruct;
 import javax.ejb.Singleton;
 import javax.ejb.Startup;
@@ -28,7 +26,7 @@ public class DatabaseInitializer {
     /**
      * Persists a fixed amount of {@link Person} entities.
      *
-     * @param amount
+     * @param amount The amount of {@link Person} entities to persist.
      */
     private void persistPersons(int amount) {
         IntStream

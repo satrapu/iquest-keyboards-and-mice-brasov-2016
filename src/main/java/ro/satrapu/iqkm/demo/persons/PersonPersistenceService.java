@@ -1,7 +1,5 @@
 package ro.satrapu.iqkm.demo.persons;
 
-import ro.satrapu.iqkm.demo.persons.Person;
-
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
