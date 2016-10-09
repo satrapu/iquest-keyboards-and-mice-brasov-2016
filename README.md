@@ -23,8 +23,8 @@ The web application is composed of a servlet which reads some rows from a databa
 --
 * Heroku
   * Official Site: https://www.heroku.com/home
-  * How Heroku Works: https://devcenter.heroku.com/articles/how-heroku-works  
   * Pricing: https://www.heroku.com/pricing
+  * Heroku Architecture: https://devcenter.heroku.com/categories/heroku-architecture
   * Heroku CLI: https://devcenter.heroku.com/categories/command-line
   * Deployment: https://devcenter.heroku.com/categories/deployment
   * Limits: https://devcenter.heroku.com/articles/limits  
