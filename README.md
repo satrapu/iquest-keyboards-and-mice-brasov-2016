@@ -25,6 +25,7 @@ The web application is composed of a servlet which reads some rows from a databa
   * Official Site: https://www.heroku.com/home
   * Pricing: https://www.heroku.com/pricing
   * Heroku Architecture: https://devcenter.heroku.com/categories/heroku-architecture
+  * Buildpacks: https://devcenter.heroku.com/articles/buildpacks
   * Heroku CLI: https://devcenter.heroku.com/categories/command-line
   * Deployment: https://devcenter.heroku.com/categories/deployment
   * Limits: https://devcenter.heroku.com/articles/limits  
@@ -32,6 +33,7 @@ The web application is composed of a servlet which reads some rows from a databa
   * Java on Heroku: https://devcenter.heroku.com/categories/java  
   * Heroku Java Support: https://devcenter.heroku.com/articles/java-support  
   * Troubleshooting Memory Issues in Java Applications: https://devcenter.heroku.com/articles/java-memory-issues  
+  * PostgreSQL: https://devcenter.heroku.com/categories/heroku-postgres
   * Alternatives:
     * Red Hat OpenShift: https://www.openshift.com/  
     * IBM Blue Mix: http://www.ibm.com/cloud-computing/bluemix/  
