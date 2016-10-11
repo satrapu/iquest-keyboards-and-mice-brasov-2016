@@ -72,7 +72,7 @@ The web application is composed of a servlet which reads some rows from a databa
   
 <a name="heroku-cli-commands">Useful Heroku CLI commands</a>
 --
-* Run Heroku application on my Windows machine:
+* Run Heroku application on a Windows machine:
 ```bash
 heroku local -f Procfile.windows -e .env -p 6789
 ```
