@@ -48,6 +48,14 @@ The web application is composed of a servlet which reads some rows from a databa
     * Payara Micro Edition: http://www.payara.fish/payara_micro
     * Spring Boot: http://projects.spring.io/spring-boot/
     * Others
+* Java Enterprise Edition 7
+  * Official Site: http://www.oracle.com/technetwork/java/javaee/overview/index.html
+  * JEE7 Tutorial: https://docs.oracle.com/javaee/7/tutorial/
+  * Ticket Monster: http://developers.redhat.com/ticket-monster
+* Database Migration Tools
+  * Flyway: http://www.hascode.com/2013/04/easy-database-migrations-using-flyway-java-ee-6-and-glassfish/
+  * Liquibase: http://www.hascode.com/2014/07/java-ee-7-database-migrations-with-liquibase-and-wildfly/
+  * Others
 * Drone.io
   * Official Site: https://drone.io/
   * Docs: 
@@ -61,14 +69,6 @@ The web application is composed of a servlet which reads some rows from a databa
     * CodeShip: https://documentation.codeship.com/continuous-deployment/deployment-to-heroku/
     * Travis CI: https://docs.travis-ci.com/user/deployment/heroku
     * Others
-* Java Enterprise Edition 7
-  * Official Site: http://www.oracle.com/technetwork/java/javaee/overview/index.html
-  * JEE7 Tutorial: https://docs.oracle.com/javaee/7/tutorial/
-  * Ticket Monster: http://developers.redhat.com/ticket-monster
-* Database Migration Tools
-  * Flyway: http://www.hascode.com/2013/04/easy-database-migrations-using-flyway-java-ee-6-and-glassfish/
-  * Liquibase: http://www.hascode.com/2014/07/java-ee-7-database-migrations-with-liquibase-and-wildfly/
-  * Others
   
 <a name="heroku-cli-commands">Useful Heroku CLI commands</a>
 --
