@@ -92,6 +92,11 @@ heroku config --app iq-kam-brasov-2016
 heroku run 'cat /etc/*-release' --app iq-kam-brasov-2016
 ```
 
+* Display the last 250 logged messages and keep monitoring the log:
+```bash
+heroku logs -t -n 250 --app iq-kam-brasov-2016
+```
+
 * Copy config var "DATABASE_URL", which contains the URL pointing to the Heroku managed PostgreSQL database, from Heroku application to the local .env file:
 ```bash
 heroku config:get DATABASE_URL -s  >> .env --app iq-kam-brasov-2016
