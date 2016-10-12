@@ -36,6 +36,7 @@ The web application is composed of a servlet which reads some rows from a databa
   * Heroku Java Support: https://devcenter.heroku.com/articles/java-support  
   * Troubleshooting Memory Issues in Java Applications: https://devcenter.heroku.com/articles/java-memory-issues  
   * PostgreSQL: https://devcenter.heroku.com/categories/heroku-postgres
+    * Connecting in Java: https://devcenter.heroku.com/articles/heroku-postgresql#connecting-in-java
   * Alternatives:
     * Red Hat OpenShift: https://www.openshift.com/  
     * IBM Blue Mix: http://www.ibm.com/cloud-computing/bluemix/  
