@@ -32,9 +32,9 @@ The web application is composed of a servlet which reads some rows from a databa
   * Deployment: https://devcenter.heroku.com/categories/deployment
   * Error Codes: https://devcenter.heroku.com/articles/error-codes  
   * Java on Heroku: https://devcenter.heroku.com/categories/java  
-  * Customize Maven: https://github.com/heroku/heroku-buildpack-java#customize-maven
-  * Heroku Java Support: https://devcenter.heroku.com/articles/java-support  
-  * Troubleshooting Memory Issues in Java Applications: https://devcenter.heroku.com/articles/java-memory-issues  
+    * Customize Maven: https://github.com/heroku/heroku-buildpack-java#customize-maven
+    * Heroku Java Support: https://devcenter.heroku.com/articles/java-support  
+    * Troubleshooting Memory Issues in Java Applications: https://devcenter.heroku.com/articles/java-memory-issues  
   * PostgreSQL: https://devcenter.heroku.com/categories/heroku-postgres
     * Connecting in Java: https://devcenter.heroku.com/articles/heroku-postgresql#connecting-in-java
   * Alternatives:
