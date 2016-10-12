@@ -25,10 +25,11 @@ The web application is composed of a servlet which reads some rows from a databa
   * Official Site: https://www.heroku.com/home
   * Pricing: https://www.heroku.com/pricing
   * Heroku Architecture: https://devcenter.heroku.com/categories/heroku-architecture
-  * Buildpacks: https://devcenter.heroku.com/articles/buildpacks
-  * Heroku CLI: https://devcenter.heroku.com/categories/command-line
-  * Deployment: https://devcenter.heroku.com/categories/deployment
   * Limits: https://devcenter.heroku.com/articles/limits  
+  * Elements: https://elements.heroku.com/
+  * Heroku CLI: https://devcenter.heroku.com/categories/command-line
+  * Buildpacks: https://devcenter.heroku.com/articles/buildpacks
+  * Deployment: https://devcenter.heroku.com/categories/deployment
   * Error Codes: https://devcenter.heroku.com/articles/error-codes  
   * Java on Heroku: https://devcenter.heroku.com/categories/java  
   * Customize Maven: https://github.com/heroku/heroku-buildpack-java#customize-maven
