@@ -35,6 +35,7 @@ The web application is composed of a servlet which reads some rows from a databa
     * Customize Maven: https://github.com/heroku/heroku-buildpack-java#customize-maven
     * Heroku Java Support: https://devcenter.heroku.com/articles/java-support  
     * Troubleshooting Memory Issues in Java Applications: https://devcenter.heroku.com/articles/java-memory-issues  
+    * Remote Debugging: https://jkutner.github.io/2015/05/19/heroku-remote-debug-java.html - TO BE CONFIRMED!!!
   * PostgreSQL: https://devcenter.heroku.com/categories/heroku-postgres
     * Connecting in Java: https://devcenter.heroku.com/articles/heroku-postgresql#connecting-in-java
   * Alternatives:
