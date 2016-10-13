@@ -8,7 +8,7 @@
 
 <a name="description">Description</a>
 --
-This repo contains the source code of a JEE 7 web application to be used during the "Deploying JEE to HEROKU" session at the "[Keyboards & Mice](http://www.iquestgroup.com/en/event/keyboards-mice-brasov-2016/)" iQuest public event, which will take place in Brașov on October 12th, 2016.  
+This repo contains the source code of a JEE 7 web application used during the "Deploying JEE to HEROKU" session at the "[Keyboards & Mice](http://www.iquestgroup.com/en/event/keyboards-mice-brasov-2016/)" iQuest public event, which took place in Brașov on October 12th, 2016.  
 The web application is composed of a servlet which reads some rows from a database via JPA, a simplified setup meant to present one approach to performing deployments on [Heroku cloud application platform](https://www.heroku.com/home).
 
 <a name="ci">Continuous Integration</a>
