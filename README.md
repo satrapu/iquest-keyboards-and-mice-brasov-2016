@@ -3,6 +3,8 @@
 - [Description](#description)  
 - [Presentation Slides](#slides)  
 - [Presentation Video](#video)  
+- [Event Photos](#photos)
+- [Event Highlights Video](#highlights-video)
 - [Continuous Integration](#ci)  
 - [Live Application](#live-application)  
 - [References](#references)  
@@ -20,6 +22,14 @@ The web application is composed of a servlet which reads some rows from a databa
 <a name="video">Presentation Video [Romanian]</a>
 --
 * Youtube: https://www.youtube.com/watch?v=7OHYeat8rQM
+
+<a name="photos">Event Photos</a>
+--
+* Flickr: https://www.flickr.com/photos/iquestgroup/sets/72157671845375494
+
+<a name="highlights-video">Event Highlights Video</a>
+--
+* Youtube: https://www.youtube.com/watch?v=otZuVHMsmow
 
 <a name="ci">Continuous Integration</a>
 --
