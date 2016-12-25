@@ -1,6 +1,8 @@
 # iQuest Keyboards & Mice - Brașov - 2016
 **Table of Contents**  
 - [Description](#description)  
+- [Presentation Slides](#slides)  
+- [Presentation Video](#video)  
 - [Continuous Integration](#ci)  
 - [Live Application](#live-application)  
 - [References](#references)  
@@ -10,6 +12,14 @@
 --
 This repo contains the source code of a JEE 7 web application used during the "Deploying JEE to HEROKU" session at the "[Keyboards & Mice](http://www.iquestgroup.com/en/event/keyboards-mice-brasov-2016/)" iQuest public event, which took place in Brașov on October 12th, 2016.  
 The web application is composed of a servlet which reads some rows from a database via JPA, a simplified setup meant to present one approach to performing deployments on [Heroku cloud application platform](https://www.heroku.com/home).
+
+<a name="slides">Presentation Slides</a>
+--
+* SlideShare: http://www.slideshare.net/satrapu/deploying-jee-to-heroku
+
+<a name="video">Presentation Video [Romanian]</a>
+--
+* Youtube: https://www.youtube.com/watch?v=7OHYeat8rQM
 
 <a name="ci">Continuous Integration</a>
 --
